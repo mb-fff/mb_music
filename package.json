@@ -1,0 +1,55 @@
+{
+  "name": "mb_build",
+  "version": "1.0.0",
+  "private": true,
+  "description": "mb_product",
+  "author": "meibo",
+  "scripts": {
+    "dev": "vue-cli-service serve --mode dev",
+    "build:test": "vue-cli-service build --mode test",
+    "build:prod": "vue-cli-service build --mode prod",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.7.8",
+    "axios": "^0.22.0",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "element-ui": "^2.15.6",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "compression-webpack-plugin": "^5.0.1",
+    "css-loader": "^6.5.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^8.1.0",
+    "less": "^3.13.1",
+    "less-loader": "^5.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.8",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.15.1",
+    "webpack-bundle-analyzer": "^4.5.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": []
+}
