@@ -138,7 +138,7 @@ module.exports = {
       // 标识符
       "/mb": {
         // 代理目标地址
-        target: "https://netease-cloud-music-api-fawn-ten.vercel.app",
+        target: "https://netease-cloud-music-api-nqx5-qtyxxc72z-mb-fff.vercel.app",
         // 不保留发起请求所在主机地址
         changeOrigin: true,
         // websocket支持
